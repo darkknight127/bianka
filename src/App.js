@@ -78,6 +78,9 @@ function App() {
       {showPopup && (
         <div className="popup" onClick={handleClickOutside}>
           <div className="popup-content">{popupText}</div>
+          <img style={{
+            transform: 'rotate(-90%)',
+          }} src='./image.jpg' />
         </div>
       )}
     </>
