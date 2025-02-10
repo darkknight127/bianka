@@ -59,8 +59,14 @@ function App() {
 
   return (
     <>
-      <p className="pre-valentine">Bjanka, will you be my</p>
-      <p className="valentine">Valentine</p>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
+      }}>
+        <p className="pre-valentine">Bjanka, will you be my</p>
+        <p className="valentine">Valentine</p>
+      </div>
       <button 
         style={yesStyle}
         onClick={clickedYes}
@@ -79,8 +85,10 @@ function App() {
         <div className="popup" onClick={handleClickOutside}>
           <div className="popup-content">{popupText}</div>
           <img style={{
-            transform: 'rotate(-90%)',
-          }} src='./image.jpg' />
+            transform: 'rotate(-90deg)',
+          }} src='./image.jpg'
+            alt='Bjanka and I'
+           />
         </div>
       )}
     </>
