@@ -37,7 +37,7 @@ function App() {
   };
 
   const clickedYes = () => {
-    showPopupMessage("Its either you couldn't catch the no button or you really wanted to be my valentine's date.");
+    showPopupMessage("Yaaaaay, I love you sooooo much my Potatooo, kissheeeesss!!");
   };
 
   function mouseOver() {
@@ -72,7 +72,7 @@ function App() {
       <button
         onMouseOver={mouseOver}
         style={noStyle}
-        onClick={() => showPopupMessage("AH look at you, you caught the button. \nLucky button catchers win one free date on February 14th with an eligible bachelor who will be in touch with you to follow up!")}
+        onClick={() => showPopupMessage("Ah look at you, you caught the button. \nLucky button catchers win one free date on February 14th with an eligible bachelor who will be in touch with you to follow up!")}
       >
         no
       </button>
